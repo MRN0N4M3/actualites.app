@@ -1,0 +1,142 @@
+		<html>
+<title>MR.N0N4M3 Is Here .\\ </title>
+<body bgcolor='black'>
+<center>
+<td align=center>
+<b>
+<span style='font: 45px courier;size:50px;color:red;text-shadow:white 0px 0px 15px;'>
+<font size='45px' color='red'>
+Hacked By MR.N0N4M3<br>
+<img class="ndivic404animasi infinite ndivic404anim1" src="https://media3.giphy.com/media/yQwWpG99S4jXa/giphy.gif? width="385" & height="500" & fit="clip" alt="IFS">
+<br> <font size='6px' color='red'>Indonesian<font size='6px' color='white'>Defacer Ind</div></font>
+<br>
+<font size='4px' color='red'> <\> <br>
+Saat Aku Tersenyum... <br>
+Bukan Berarti Hatiku Sedang Bahagia...<br>
+<font size='4px' color='white'>
+Saat Itu Aku Hanya... <br>
+Sedang Menutupi Kesedihan :)<br> <\> <br><br></font>
+<font size='3px' color='white'> <u><b>For You Admin !!</b></u> <br> <marquee style="border:red 2px SOLID"> Maaf Ya Untuk Webnya :) Saya Hanya Ingin Memberi Tahu Bahwa Web Anda Banyak Celahnya Tolong Di Perbaiki Lagi :) </marquee></font>
+</font>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/G8zPc80eeMQ?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+</html>
+<style type="text/css">
+body, a:hover {cursor: url 
+</style>
+<a href="https://www.facebook.com/IndoFreeSec"/></a>
+
+
+<style type="text/css">
+
+#outerCircleText {
+
+font-style: italic;
+font-weight: bold;
+font-family: 'comic sans ms', verdana, arial;
+color: white;
+
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+
+</style>
+<script type="text/javascript">
+
+
+;(function(){
+
+
+var msg = "Terus Berjuang Dan Jangan Menyerah :) ";
+
+var size = 24;
+
+
+var circleY = 0.75; var circleX = 2;
+
+var letter_spacing = 5;
+
+var diameter = 10;
+
+
+var rotation = 0.4;
+
+var speed = 0.3;
+
+
+
+if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+
+msg = msg.split('');
+var n = msg.length - 1, a = Math.round(size * diameter * 0.208333), currStep = 20,
+ymouse = a * circleY + 20, xmouse = a * circleX + 20, y = [], x = [], Y = [], X = [],
+o = document.createElement('div'), oi = document.createElement('div'),
+b = document.compatMode && document.compatMode != "BackCompat"? document.documentElement : document.body,
+
+mouse = function(e){
+ e = e || window.event;
+ ymouse = !isNaN(e.pageY)? e.pageY : e.clientY; // y-position
+ xmouse = !isNaN(e.pageX)? e.pageX : e.clientX; // x-position
+},
+
+makecircle = function(){ // rotation/positioning
+ if(init.nopy){
+  o.style.top = (b || document.body).scrollTop + 'px';
+  o.style.left = (b || document.body).scrollLeft + 'px';
+ };
+ currStep -= rotation;
+ for (var d, i = n; i > -1; --i){ // makes the circle
+  d = document.getElementById('iemsg' + i).style;
+  d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+  d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+ };
+},
+
+drag = function(){ // makes the resistance
+ y[0] = Y[0] += (ymouse - Y[0]) * speed;
+ x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+ for (var i = n; i > 0; --i){
+  y[i] = Y[i] += (y[i-1] - Y[i]) * speed;
+  x[i] = X[i] += (x[i-1] - X[i]) * speed;
+ };
+ makecircle();
+},
+
+init = function(){ 
+ if(!isNaN(window.pageYOffset)){
+  ymouse += window.pageYOffset;
+  xmouse += window.pageXOffset;
+ } else init.nopy = true;
+ for (var d, i = n; i > -1; --i){
+  d = document.createElement('div'); d.id = 'iemsg' + i;
+  d.style.height = d.style.width = a + 'px';
+  d.appendChild(document.createTextNode(msg[i]));
+  oi.appendChild(d); y[i] = x[i] = Y[i] = X[i] = 0;
+ };
+ o.appendChild(oi); document.body.appendChild(o);
+ setInterval(drag, 25);
+},
+
+ascroll = function(){
+ ymouse += window.pageYOffset;
+ xmouse += window.pageXOffset;
+ window.removeEventListener('scroll', ascroll, false);
+};
+
+o.id = 'outerCircleText'; o.style.fontSize = size + 'px';
+
+if (window.addEventListener){
+ window.addEventListener('load', init, false);
+
+ document.addEventListener('mouseover', mouse, false);
+ document.addEventListener('mousemove', mouse, false);
+  if (/Apple/.test(navigator.vendor))
+   window.addEventListener('scroll', ascroll, false);
+}
+else if (window.attachEvent){
+ window.attachEvent('onload', init);
+ document.attachEvent('onmousemove', mouse);
+};
+
+})();
+
+</script>
